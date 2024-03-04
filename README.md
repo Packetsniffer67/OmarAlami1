@@ -23,9 +23,9 @@
 [linkedin]: https://linkedin.com/in/
 
 
+<h4>⚡On-going</h4>
 
-
-- 🔭 I’m currently working on obtaining my CompTIA Security+ Certification
-- 🌱 I’m currently learning Wireshark SIEM, and Windows Defender/Firewall Configuration
-- 📫 How to reach me: oalami67@gmail.com
+- <b> 🔭 I’m currently working on obtaining my CompTIA Security+ Certification</b>
+- <b>🌱 I’m currently learning Wireshark SIEM, and Windows Defender/Firewall Configuration</b>
+- <b>📫 How to reach me: oalami67@gmail.com</b>
 
