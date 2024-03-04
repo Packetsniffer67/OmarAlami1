@@ -8,7 +8,15 @@
 
 <h3>👨‍💻Cybersecurity Portfolio Projects</h3>
 
-<b>
+- <b>Conducting a Security Audit</b>
+- <b>Analyzing network structure and security</b>
+- <b>Using Linux commands to manage file permissions</b>
+- <b>Applying filters to SQL queries</b>
+- <b>Identifying vulnerabilities for a small business</b>
+- <b>Documenting incidents with an Incident Handler journal</b>
+- <b>Importing & parsing a text file in a security related scenario</b>
+
+
 
 
 
