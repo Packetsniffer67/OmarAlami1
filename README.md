@@ -1,4 +1,5 @@
 <h1>Hi, I'm Omar</h1>
+<p>I am a highly motivated individual entering the world of cybersecurity. My discipline, growth mindset, and ability to learn concepts quickly make me a valuable asset to any organiztion. Cybersecurity interests me because it's a rapidly growing field with many different career paths within the industry.</p>
 
 <h2>✨ Certifications:</h2>
 
