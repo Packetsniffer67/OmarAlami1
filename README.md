@@ -6,7 +6,7 @@
 (https://www.coursera.org/account/accomplishments/professional-cert/8PWK5N4JB6KN)
 
 
-<h3>👨‍💻Cybersecurity Portfolio Projects</h3>
+<h3>👨‍💻Cybersecurity Portfolio Projects:</h3>
 
 - <b>Conducting a Security Audit</b>
 - <b>Analyzing network structure and security</b>
