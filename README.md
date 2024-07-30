@@ -5,6 +5,7 @@
 
 - <b>Google Cybersecurity Certificate</b>
 (https://www.coursera.org/account/accomplishments/professional-cert/8PWK5N4JB6KN)
+-<b>CompTIA Security+ Certification</b>
 
 
 <h3>👨‍💻Cybersecurity Portfolio Projects:</h3>
@@ -26,7 +27,6 @@
 
 <h4>⚡On-going</h4>
 
-- <b> 🔭 I’m currently working on obtaining my CompTIA Security+ Certification</b>
 - <b>🌱 I’m currently learning Wireshark SIEM, and Windows Defender/Firewall Configuration</b>
 - <b>📫 How to reach me: oalami67@gmail.com</b>
 
