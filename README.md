@@ -6,7 +6,7 @@
 - <b>Google Cybersecurity Certificate</b>
 (https://www.coursera.org/account/accomplishments/professional-cert/8PWK5N4JB6KN)
 
--<b>CompTIA Security+ Certification</b>
+- <b>CompTIA Security+ Certification</b>
 
 
 <h3>👨‍💻Cybersecurity Portfolio Projects:</h3>
