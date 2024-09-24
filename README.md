@@ -18,7 +18,7 @@
 - <b>Identifying vulnerabilities for a small business</b>
 - <b>Documenting incidents with an Incident Handler journal</b>
 - <b>Importing & parsing a text file in a security related scenario</b>
-
+- <b>Using Snort to detect and prevent malicious network activity<b/>
 
 
 
