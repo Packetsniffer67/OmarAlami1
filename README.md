@@ -28,6 +28,7 @@
 
 <h4>⚡On-going</h4>
 
-- <b>🌱 I’m currently learning Wireshark SIEM, and Windows Defender/Firewall Configuration</b>
+- <b>🌱 I’m currently gaining hands-on experience with tools like Snort, Splunk, OpenCTI and more through the SOC Level 1 learning path on TryHackMe.com</b>
+<p>https://tryhackme.com/paths</p>
 - <b>📫 How to reach me: oalami67@gmail.com</b>
 
