@@ -28,6 +28,6 @@
 
 <h4>⚡On-going</h4>
 
-- <b>🌱 I’m currently learning Wireshark SIEM, and Windows Defender/Firewall Configuration</b>
+- <b>🌱 I’m currently learning Endpoint Monitoring, Wazuh, Nmap, DFIR</b>
 - <b>📫 How to reach me: oalami67@gmail.com</b>
 
