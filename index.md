@@ -2,6 +2,7 @@
 layout: default
 ---
 
+OmarLinkedIn-BKG-01 (2).jpg
 
 Link to my GitHib: [https://github.com/Packetsniffer67/OmarAlami1.git].
 
@@ -12,19 +13,12 @@ Aspiring Cybersecurity Analyst with a strong foundation in threat analysis, Linu
 
 ## Relevant Projects
 
-> This is a blockquote following a header.
 >
 > Managed Active Directory Permissions using Ubuntu, Developed IPS rules in Snort to block malicious network traffic, Scripted Python solutions for ethical hacking, Built data visualization dashboards using Splunk for fraud detection.
 
-### Header 3
+### Splunk Technical Project
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+
 
 ```ruby
 # Ruby code with syntax highlighting
