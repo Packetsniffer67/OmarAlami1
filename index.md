@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+![OmarLinkedIn-BKG-01 (2).jpg](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
 Link to my GitHib: [https://github.com/Packetsniffer67/OmarAlami1.git].
 
