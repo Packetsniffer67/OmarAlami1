@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![Image](OmarLinkedIn-BKG-01 (2).jpg)
+![Branching]()
 
 Link to my GitHib: [https://github.com/Packetsniffer67/OmarAlami1.git].
 
@@ -93,9 +93,6 @@ end
 - level 1 item
 
 
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
 
 ### Definition lists can be used with HTML syntax.
