@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
 Link to my GitHib: [https://github.com/Packetsniffer67/OmarAlami1.git].
 
@@ -92,9 +92,6 @@ end
   - level 2 item
 - level 1 item
 
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
 ### Large image
 
