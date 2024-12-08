@@ -5,17 +5,16 @@ layout: default
 
 Link to my GitHib: [https://github.com/Packetsniffer67/OmarAlami1.git].
 
-README.md
 
-# Header 1
+# About Me
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Aspiring Cybersecurity Analyst with a strong foundation in threat analysis, Linux, and Python, driven by a commitment to secure critical systems and data.
 
-## Header 2
+## Relevant Projects
 
 > This is a blockquote following a header.
 >
-> When something is important enough, you do it even if the odds are not in your favor.
+> Managed Active Directory Permissions using Ubuntu, Developed IPS rules in Snort to block malicious network traffic, Scripted Python solutions for ethical hacking, Built data visualization dashboards using Splunk for fraud detection.
 
 ### Header 3
 
