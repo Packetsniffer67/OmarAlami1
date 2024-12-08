@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
-[https://github.com/Packetsniffer67/OmarAlami1.git](https://github.com/Packetsniffer67/OmarAlami1.git).
+Link to my GitHib: [https://github.com/Packetsniffer67/OmarAlami1.git].
 
 There should be whitespace between paragraphs.
 
