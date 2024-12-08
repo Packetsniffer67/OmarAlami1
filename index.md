@@ -5,9 +5,7 @@ layout: default
 
 Link to my GitHib: [https://github.com/Packetsniffer67/OmarAlami1.git].
 
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+README.md
 
 # Header 1
 
