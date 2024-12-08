@@ -3,13 +3,6 @@ layout: default
 ---
 
 
-
-
-![Branching](OmarLinkedIn-BKG-01 (2).jpg)
-
-
-
-
 Link to my GitHib: [https://github.com/Packetsniffer67/OmarAlami1.git].
 
 There should be whitespace between paragraphs.
