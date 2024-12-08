@@ -95,11 +95,11 @@ end
 
 <dl>
 <dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
+<dd>Omar</dd>
+<dt>Phone</dt>
+<dd>(540) 642-9311</dd>
+<dt>email</dt>
+<dd>oalami67@gmail.com</dd>
 <dt>Color</dt>
 <dd>Green</dd>
 </dl>
