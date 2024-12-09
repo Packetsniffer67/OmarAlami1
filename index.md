@@ -2,7 +2,10 @@
 layout: default
 ---
 
+
 ![CloudImage](OmarLinkedIn-BKG-01 (2).jpg)
+
+
 
 Link to my GitHib: [https://github.com/Packetsniffer67/OmarAlami1.git].
 
@@ -40,44 +43,31 @@ Aspiring Cybersecurity Analyst with a strong foundation in threat analysis, Linu
 | Google Cybersecurity Professional Certificate|
 | TryHackMe SOC Level 1|
 
-### There's a horizontal rule below this.
+### Things I'm Learning in TryHackMe.
 
 * * *
 
-### Here is an unordered list:
+### EventLog Analysis:
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+*   Investigated Host-Centric Logs with Splunk SIEM: Analyzed Windows Event Logs (Event ID: 4688) to identify suspicious process executions, uncovering malicious activity on a compromised HR host.
+*   Detected Malicious Activity: Tracked an imposter account, identified LOLBin usage (certutil.exe), and traced a payload download (benign.exe) to a Command and Control (C2) server.
+*   Strengthened SOC Analyst Skills: Applied query-building techniques, utilized network segmentation, and investigated seemingly benign activities to detect hidden threats, concluding the SIEM module.
 
-### And an ordered list:
+### Wazuh SIEM Investigation :
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+*  Configured and utilized Wazuh with Sysmon to monitor endpoint security, analyze logs, and investigate real-world cybersecurity threats like data exfiltration and credential-dumping.
+*  Identified malicious files (e.g., SwiftSpend_Financial_Expenses.xlsm), decoded payloads using CyberChef, and reconstructed attacker behavior through command-line argument analysis.
+*  Leveraged Wazuh's dashboard, search filters, and saved queries to correlate logs with attack vectors, enhancing incident detection and response proficiency. 
 
-### And a nested list:
+### WireShark Traffic Analysis:
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+* Explored Nmap scan detection, host identification through IP-to-MAC mapping, and spotting tunneling techniques like ICMP and DNS for malicious activity.
+* Analyzed cleartext protocols (FTP, HTTP) for phishing or data exfiltration threats and practiced decrypting HTTPS traffic using key files.
+* Gained practical experience in detecting network anomalies, identifying potential compromises, and investigating attacker behavior.
 
 
 
-
-### Definition lists can be used with HTML syntax.
+### My Info
 
 <dl>
 <dt>Name</dt>
@@ -91,9 +81,10 @@ Aspiring Cybersecurity Analyst with a strong foundation in threat analysis, Linu
 </dl>
 
 ```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+Experienced with: 
+Splunk, Wazuh, Sysmon, Wireshark, Snort, CyberChef, Nmap, DHCP, NetBIOS, Kerberos, ICMP, DNS, FTP, HTTP, HTTPS, Security Information and Event Management (SIEM), Endpoint Security Monitoring, Log Analysis, Threat Detection, Incident Response, Data Exfiltration Detection, Command-and-Control (C2) Traffic Analysis, Credential Dumping, Python, Linux Administration, Command-Line Tools,Scheduled Tasks, Encoded Payload Decoding, Data Exfiltration via ICMP/DNS Tunneling, Decrypting HTTPS Traffic.
 ```
 
 ```
-The final element.
+![Check out my LinkedIn](https://www.linkedin.com/in/omar-alami-29347a187/): .
 ```
