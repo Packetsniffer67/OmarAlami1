@@ -29,14 +29,15 @@ Aspiring Cybersecurity Analyst with a strong foundation in threat analysis, Linu
 
 >[Project Summary_ Log4j Advisory and Brute-Force Decryption using Python.pdf]
 
-### 
+### Threat Analysis using E.L.K stack
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+>[SOC Investigation using ELK Stack.pdf]
+
+| Certifications|
+|:------------- |
+| CompTIA Security+|
+| Google Cybersecurity Professional Certificate|
+| TryHackMe SOC Level 1|
 
 ### There's a horizontal rule below this.
 
