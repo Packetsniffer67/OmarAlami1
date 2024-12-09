@@ -33,6 +33,7 @@ Aspiring Cybersecurity Analyst with a strong foundation in threat analysis, Linu
 
 >[SOC Investigation using ELK Stack.pdf]
 
+
 | Certifications|
 |:------------- |
 | CompTIA Security+|
