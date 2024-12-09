@@ -18,14 +18,8 @@ Aspiring Cybersecurity Analyst with a strong foundation in threat analysis, Linu
 
 ### Splunk Technical Project
 
+>[Splunk SIEM Incident Response Project.pdf]
 
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
 
 #### Header 4
 
