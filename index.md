@@ -30,7 +30,10 @@ Aspiring Cybersecurity Analyst with a strong foundation in threat analysis, Linu
 
 ### Ethical Hacking wih Python 
 
->![PythonProject](Project Summary_ Log4j Advisory and Brute-Force Decryption using Python.pdf)
+>![PythonProject](Python Code for Brute Forcing a zipfile.png)
+* Drafted Log4j Security Advisory: Communicated critical vulnerability details (CVE-2021-44228 and CVE-2021-45046) to the Product Development Team, outlining risks, affected versions, and actionable remediation steps to secure infrastructure.
+* Enhanced Brute-Force Python Script: Completed and optimized a Python script to decrypt a password-protected zip file using a wordlist, achieving 100% success in password discovery and file decryption.
+* Demonstrated Cybersecurity Proficiency: Showcased skills in vulnerability communication, incident response, and practical programming for solving security challenges.
 
 ### Threat Analysis using E.L.K stack
 
