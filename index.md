@@ -104,9 +104,45 @@ Aspiring Cybersecurity Analyst with a strong foundation in threat analysis, Linu
 * Enhanced Brute-Force Python Script: Completed and optimized a Python script to decrypt a password-protected zip file using a wordlist, achieving 100% success in password discovery and file decryption.
 * Demonstrated Cybersecurity Proficiency: Showcased skills in vulnerability communication, incident response, and practical programming for solving security challenges.
 
-### Threat Analysis using E.L.K stack
+### Analyzing Potential Command and Control (C2) Communication Using E.L.K Stack
 
->!ELK](SOC Investigation using ELK Stack.pdf)
+##### Objective: Investigated a potential C2 communication flagged by an IDS using the ELK stack (Elasticsearch, Logstash, and Kibana) in a TryHackMe scenario involving a compromised HR user's system.
+##### Approach: Analyzed HTTP connection logs to identify suspicious activities, traced the malicious activity to a C2 server, and uncovered details about the attacker’s methods.
+##### Outcome: Successfully identified a C2 URL, extracted a malicious file, and validated a secret code, showcasing expertise in log analysis, threat detection, and investigative techniques.
+
+##### Steps Taken
+
+1. Log Analysis:
+>Used Kibana to filter and analyze a week’s worth of indexed HTTP connection logs.
+>Identified 1,482 events logged in March 2022.
+>Identified Suspicious IP:
+
+2. Isolated the source IP of the HR user (192.166.65.54) by filtering for source_IP and method = GET.
+>Highlighted unusual traffic patterns, including interaction with a known malicious C2 server (104.23.99.190), verified via AlienVault threat intelligence.
+>Tracked Malicious Activity:
+
+3. Determined the compromised system used the legitimate binary bitsadmin to download files from the C2 server.
+>Analyzed user_agent and host fields to find clues pointing to the attacker’s domain.
+>Discovered connections to pastebin.com, used as a platform for C2 communication.
+>Extracted C2 URL and File Details:
+
+4. Extracted the full C2 URL: pastebin.com/yTg0Ah6a.
+>Identified a malicious file named secret.txt accessed from the C2 server.
+>Retrieved and analyzed the file to uncover a secret code: THM{_____}.
+>Recovered and Validated Artifacts:
+
+5. Successfully recovered the secret code embedded in the file, validating the investigation.
+
+##### Skills Demonstrated
+>Proficient use of the ELK stack for log analysis and threat detection.
+>Ability to trace C2 communication and analyze attacker methodologies.
+>Practical application of SOC workflows to investigate real-world cybersecurity incidents.
+
+
+
+
+
+
 
 
 | Certifications|
