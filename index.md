@@ -2,7 +2,7 @@
 layout: default
 ---
 
-OmarLinkedIn-BKG-01 (2).jpg
+![CloudImage](OmarLinkedIn-BKG-01 (2).jpg)
 
 Link to my GitHib: [https://github.com/Packetsniffer67/OmarAlami1.git].
 
@@ -18,20 +18,20 @@ Aspiring Cybersecurity Analyst with a strong foundation in threat analysis, Linu
 
 ### Splunk Technical Project
 
->[Splunk SIEM Incident Response Project.pdf]
+>![Splunk Project](Splunk SIEM Incident Response Project.pdf)
 
 
 ### Incident Response with Snort
 
->[Snort Challenge.pdf]
+>![SnortProject](Snort Challenge.pdf)
 
 ### Ethical Hacking wih Python 
 
->[Project Summary_ Log4j Advisory and Brute-Force Decryption using Python.pdf]
+>![PythonProject](Project Summary_ Log4j Advisory and Brute-Force Decryption using Python.pdf)
 
 ### Threat Analysis using E.L.K stack
 
->[SOC Investigation using ELK Stack.pdf]
+>!ELK](SOC Investigation using ELK Stack.pdf)
 
 
 | Certifications|
