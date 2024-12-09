@@ -20,7 +20,7 @@ Link to my GitHib: [https://github.com/Packetsniffer67/OmarAlami1.git].
 
 # About Me
 
-Cybersecurity Professional-in-Training with a strong foundation in threat analysis, Linux, and Python, driven by a commitment to secure critical systems and data.
+Cybersecurity Professional-in-Training with a strong foundation in Threat Analysis, Linux, Python, and SIEM tools. Driven by a commitment to secure critical systems and data.
 
 ## Relevant Projects
 
