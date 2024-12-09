@@ -19,14 +19,83 @@ Aspiring Cybersecurity Analyst with a strong foundation in threat analysis, Linu
 >
 > Managed Active Directory Permissions using Ubuntu, Developed IPS rules in Snort to block malicious network traffic, Scripted Python solutions for ethical hacking, Built data visualization dashboards using Splunk for fraud detection.
 
-### Splunk Technical Project
+### Endpoint Security Monitoring 
 
->![Splunk Project](Splunk SIEM Incident Response Project.pdf)
+1. Investigated the Desktop Message:
+
+>Located the suspicious text file (SOPHIE.txt) on the desktop at C:\Users\Sophie\Desktop\SOPHIE.txt.
+>Verified the file's creation program (notepad.exe) and the creation timestamp using Sysmon logs (Event ID 1).
+
+2. Analyzed the Malware Installer:
+
+>Identified the downloaded installer (antivirus.exe) at C:\Users\Sophie\download.
+>Observed that the installer encrypted files with a .dmp extension.
+>Tracked external communication to the IP address 10.10.8.111 using Event Viewer logs.
+
+3. Traced Remote Access Activity:
+
+>Filtered logs for Event ID 3 and “RDP” to identify the source IP of the remote login (10.11.27.46).
+>Determined the time of the intruder’s file download and execution: 2024-01-08 14:24:18 UTC.
+
+4. Arranged Events Chronologically:
+
+>Organized the sequence of events:
+  1. Sophie downloaded and executed the ransomware installer.
+  2. The malware encrypted her files and displayed a ransomware note.
+  3. Sophie left the room to seek help.
+  4. An intruder accessed her computer via RDP.
+  5. The intruder downloaded and ran a decryptor to restore files.
+  6. A note was created on the desktop, instructing Sophie to check her Bitcoin wallet.
 
 
 ### Incident Response with Snort
 
->![SnortProject](Snort Challenge.pdf)
+> Objective: Protected a coffee retail company’s secret recipe by detecting and mitigating a brute-force attack using Snort, an intrusion detection system.
+> Approach: Analyzed network traffic, identified suspicious activity on port 4444 indicating a reverse shell attack, and implemented a custom Snort rule to block malicious traffic.
+> Outcome: Successfully stopped the attack in real time, confirming success with the appearance of a flag file.
+>
+> Steps Taken:
+1. Ran Snort in Sniffer Mode:
+>Command: sudo snort -v -l .
+>Captured live network traffic for analysis.
+
+2. Inspected Log Files:
+
+>Command: sudo snort -r snort.log.1672697486 -X
+>Reviewed captured packets to locate anomalies.
+
+3.Filtered Traffic for Port 4444:
+
+>Command: sudo snort -r snort.log.1672697486 -X | grep ":4444"
+>Focused on suspicious traffic potentially indicating a reverse shell.
+
+4. Limited Log Output:
+>Command: sudo snort -r snort.log.1672697486 -X -n 10
+>Streamlined analysis by viewing only the first 10 log entries.
+
+5. Edited Local Rules File:
+>Opened local.rules with sudo gedit /etc/snort/rules/local.rules.
+
+6. Created a Custom Rule:
+
+>Rule: drop tcp any 4444 <> any any (msg:"Reverse Shell Detected"; sid:100001; rev:1;)
+>Configured Snort to block TCP traffic on port 4444.
+
+7. Applied the Rule to Live Traffic:
+
+>Command: sudo snort -c /etc/snort/snort.conf -q -Q --daq afpacket -i eth0:eth1 -A full.
+
+8. Monitored Traffic and Verified Success:
+
+>After a minute of blocking malicious traffic, a flag.txt file appeared on the desktop, confirming the attack was mitigated.
+
+9. Stopped Snort:
+
+>Command: ctrl + c
+>Opened the flag file to validate completion.
+
+##### Summary: 
+>This project demonstrated hands-on expertise in intrusion detection, network traffic analysis, and custom rule creation to defend against cyber threats.
 
 ### Ethical Hacking wih Python 
 
