@@ -25,11 +25,11 @@ Aspiring Cybersecurity Analyst with a strong foundation in threat analysis, Linu
 
 >[Snort Challenge.pdf]
 
+### Ethical Hacking wih Python 
+
+>[Project Summary_ Log4j Advisory and Brute-Force Decryption using Python.pdf]
+
 ### 
-
->
-
-###### Header 6
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
