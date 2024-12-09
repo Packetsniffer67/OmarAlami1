@@ -10,6 +10,14 @@ layout: default
 Link to my GitHib: [https://github.com/Packetsniffer67/OmarAlami1.git].
 
 
+| Certifications|
+|:------------- |
+| CompTIA Security+|
+| Google Cybersecurity Professional Certificate|
+| TryHackMe SOC Level 1|
+
+
+
 # About Me
 
 Aspiring Cybersecurity Analyst with a strong foundation in threat analysis, Linux, and Python, driven by a commitment to secure critical systems and data.
@@ -141,15 +149,6 @@ Aspiring Cybersecurity Analyst with a strong foundation in threat analysis, Linu
 
 
 
-
-
-
-
-| Certifications|
-|:------------- |
-| CompTIA Security+|
-| Google Cybersecurity Professional Certificate|
-| TryHackMe SOC Level 1|
 
 ### Things I'm Learning in TryHackMe.
 
