@@ -21,11 +21,9 @@ Aspiring Cybersecurity Analyst with a strong foundation in threat analysis, Linu
 >[Splunk SIEM Incident Response Project.pdf]
 
 
-#### Header 4
+#### Incident Response with Snort
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+>[]
 
 ##### Header 5
 
