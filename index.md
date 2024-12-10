@@ -193,6 +193,5 @@ Experienced with:
 Splunk, Wazuh, Sysmon, Wireshark, Snort, CyberChef, Nmap, DHCP, NetBIOS, Kerberos, ICMP, DNS, FTP, HTTP, HTTPS, Security Information and Event Management (SIEM), Endpoint Security Monitoring, Log Analysis, Threat Detection, Incident Response, Data Exfiltration Detection, Command-and-Control (C2) Traffic Analysis, Credential Dumping, Python, Linux Administration, Command-Line Tools,Scheduled Tasks, Encoded Payload Decoding, Data Exfiltration via ICMP/DNS Tunneling, Decrypting HTTPS Traffic.
 ```
 
-```
-### My LinkedIn (https://www.linkedin.com/in/omar-alami-29347a187/): .
-```
+### **[My LinkedIn](https://www.linkedin.com/in/omar-alami-29347a187/)**
+
