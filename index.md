@@ -31,19 +31,19 @@ Cybersecurity Professional-in-Training with a strong foundation in Threat Analys
 
 1. Investigated the Desktop Message:
 
->Located the suspicious text file (SOPHIE.txt) on the desktop at C:\Users\Sophie\Desktop\SOPHIE.txt.
->Verified the file's creation program (notepad.exe) and the creation timestamp using Sysmon logs (Event ID 1).
+- Located the suspicious text file (SOPHIE.txt) on the desktop at C:\Users\Sophie\Desktop\SOPHIE.txt.
+- Verified the file's creation program (notepad.exe) and the creation timestamp using Sysmon logs (Event ID 1).
 
 2. Analyzed the Malware Installer:
 
->Identified the downloaded installer (antivirus.exe) at C:\Users\Sophie\download.
->Observed that the installer encrypted files with a .dmp extension.
->Tracked external communication to the IP address 10.10.8.111 using Event Viewer logs.
+- Identified the downloaded installer (antivirus.exe) at C:\Users\Sophie\download.
+- Observed that the installer encrypted files with a .dmp extension.
+- Tracked external communication to the IP address 10.10.8.111 using Event Viewer logs.
 
 3. Traced Remote Access Activity:
 
->Filtered logs for Event ID 3 and “RDP” to identify the source IP of the remote login (10.11.27.46).
->Determined the time of the intruder’s file download and execution: 2024-01-08 14:24:18 UTC.
+- Filtered logs for Event ID 3 and “RDP” to identify the source IP of the remote login (10.11.27.46).
+- Determined the time of the intruder’s file download and execution: 2024-01-08 14:24:18 UTC.
 
 4. Arranged Events Chronologically:
 
@@ -63,44 +63,45 @@ Cybersecurity Professional-in-Training with a strong foundation in Threat Analys
 > Outcome: Successfully stopped the attack in real time, confirming success with the appearance of a flag file.
 >
 > Steps Taken:
+
 1. Ran Snort in Sniffer Mode:
->Command: sudo snort -v -l .
->Captured live network traffic for analysis.
+- Command: sudo snort -v -l .
+- Captured live network traffic for analysis.
 
 2. Inspected Log Files:
 
->Command: sudo snort -r snort.log.1672697486 -X
->Reviewed captured packets to locate anomalies.
+- Command: sudo snort -r snort.log.1672697486 -X
+- Reviewed captured packets to locate anomalies.
 
 3.Filtered Traffic for Port 4444:
 
->Command: sudo snort -r snort.log.1672697486 -X | grep ":4444"
->Focused on suspicious traffic potentially indicating a reverse shell.
+- Command: sudo snort -r snort.log.1672697486 -X | grep ":4444"
+- Focused on suspicious traffic potentially indicating a reverse shell.
 
 4. Limited Log Output:
->Command: sudo snort -r snort.log.1672697486 -X -n 10
->Streamlined analysis by viewing only the first 10 log entries.
+- Command: sudo snort -r snort.log.1672697486 -X -n 10
+- Streamlined analysis by viewing only the first 10 log entries.
 
 5. Edited Local Rules File:
->Opened local.rules with sudo gedit /etc/snort/rules/local.rules.
+- Opened local.rules with sudo gedit /etc/snort/rules/local.rules.
 
 6. Created a Custom Rule:
 
->Rule: drop tcp any 4444 <> any any (msg:"Reverse Shell Detected"; sid:100001; rev:1;)
->Configured Snort to block TCP traffic on port 4444.
+- Rule: drop tcp any 4444 <> any any (msg:"Reverse Shell Detected"; sid:100001; rev:1;)
+- Configured Snort to block TCP traffic on port 4444.
 
 7. Applied the Rule to Live Traffic:
 
->Command: sudo snort -c /etc/snort/snort.conf -q -Q --daq afpacket -i eth0:eth1 -A full.
+- Command: sudo snort -c /etc/snort/snort.conf -q -Q --daq afpacket -i eth0:eth1 -A full.
 
 8. Monitored Traffic and Verified Success:
 
->After a minute of blocking malicious traffic, a flag.txt file appeared on the desktop, confirming the attack was mitigated.
+- After a minute of blocking malicious traffic, a flag.txt file appeared on the desktop, confirming the attack was mitigated.
 
 9. Stopped Snort:
 
->Command: ctrl + c
->Opened the flag file to validate completion.
+- Command: ctrl + c
+- Opened the flag file to validate completion.
 
 ##### Summary: 
 >This project demonstrated hands-on expertise in intrusion detection, network traffic analysis, and custom rule creation to defend against cyber threats.
@@ -121,23 +122,23 @@ Cybersecurity Professional-in-Training with a strong foundation in Threat Analys
 ##### Steps Taken
 
 1. Log Analysis:
->Used Kibana to filter and analyze a week’s worth of indexed HTTP connection logs.
->Identified 1,482 events logged in March 2022.
->Identified Suspicious IP:
+- Used Kibana to filter and analyze a week’s worth of indexed HTTP connection logs.
+- Identified 1,482 events logged in March 2022.
+- Identified Suspicious IP:
 
 2. Isolated the source IP of the HR user (192.166.65.54) by filtering for source_IP and method = GET.
->Highlighted unusual traffic patterns, including interaction with a known malicious C2 server (104.23.99.190), verified via AlienVault threat intelligence.
->Tracked Malicious Activity:
+- Highlighted unusual traffic patterns, including interaction with a known malicious C2 server (104.23.99.190), verified via AlienVault threat intelligence.
+- Tracked Malicious Activity:
 
 3. Determined the compromised system used the legitimate binary bitsadmin to download files from the C2 server.
->Analyzed user_agent and host fields to find clues pointing to the attacker’s domain.
->Discovered connections to pastebin.com, used as a platform for C2 communication.
->Extracted C2 URL and File Details:
+- Analyzed user_agent and host fields to find clues pointing to the attacker’s domain.
+- Discovered connections to pastebin.com, used as a platform for C2 communication.
+- Extracted C2 URL and File Details:
 
 4. Extracted the full C2 URL: pastebin.com/yTg0Ah6a.
->Identified a malicious file named secret.txt accessed from the C2 server.
->Retrieved and analyzed the file to uncover a secret code: THM{_____}.
->Recovered and Validated Artifacts:
+- Identified a malicious file named secret.txt accessed from the C2 server.
+- Retrieved and analyzed the file to uncover a secret code: THM{_____}.
+- Recovered and Validated Artifacts:
 
 5. Successfully recovered the secret code embedded in the file, validating the investigation.
 
