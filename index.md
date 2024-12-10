@@ -36,30 +36,26 @@ Cybersecurity Professional-in-Training with a strong foundation in Threat Analys
 ### Endpoint Security Monitoring 
 
 1. Investigated the Desktop Message:
-
-   - Located the suspicious text file (SOPHIE.txt) on the desktop at C:\Users\Sophie\Desktop\SOPHIE.txt.
-   - Verified the file's creation program (notepad.exe) and the creation timestamp using Sysmon logs (Event ID 1).
+   - Located the suspicious text file (`SOPHIE.txt`) on the desktop at `C:\Users\Sophie\Desktop\SOPHIE.txt`.
+   - Verified the file's creation program (`notepad.exe`) and the creation timestamp using Sysmon logs (Event ID 1).
 
 2. Analyzed the Malware Installer:
-
-   -Identified the downloaded installer (antivirus.exe) at C:\Users\Sophie\download.
-   - Observed that the installer encrypted files with a .dmp extension
-   - Tracked external communication to the IP address 10.10.8.111 using Event Viewer logs.
+   - Identified the downloaded installer (`antivirus.exe`) at `C:\Users\Sophie\download`.
+   - Observed that the installer encrypted files with a `.dmp` extension.
+   - Tracked external communication to the IP address `10.10.8.111` using Event Viewer logs.
 
 3. Traced Remote Access Activity:
-
-   - Filtered logs for Event ID 3 and “RDP” to identify the source IP of the remote login (10.11.27.46).
-   - Determined the time of the intruder’s file download and execution: 2024-01-08 14:24:18 UTC.
+   - Filtered logs for Event ID 3 and “RDP” to identify the source IP of the remote login (`10.11.27.46`).
+   - Determined the time of the intruder’s file download and execution: `2024-01-08 14:24:18 UTC`.
 
 4. Arranged Events Chronologically:
-
    Organized the sequence of events:
-  1. Sophie downloaded and executed the ransomware installer.
-  2. The malware encrypted her files and displayed a ransomware note.
-  3. Sophie left the room to seek help.
-  4. An intruder accessed her computer via RDP.
-  5. The intruder downloaded and ran a decryptor to restore files.
-  6. A note was created on the desktop, instructing Sophie to check her Bitcoin wallet.
+   1. Sophie downloaded and executed the ransomware installer.
+   2. The malware encrypted her files and displayed a ransomware note.
+   3. Sophie left the room to seek help.
+   4. An intruder accessed her computer via RDP.
+   5. The intruder downloaded and ran a decryptor to restore files.
+   6. A note was created on the desktop, instructing Sophie to check her Bitcoin wallet.
 
 
 ### Incident Response with Snort
