@@ -6,8 +6,9 @@ layout: default
 ![CloudImage](OmarLinkedIn-BKG-01 (2).jpg)
 
 
+### **[My GitHub](https://github.com/Packetsniffer67/OmarAlami1.git)**
 
-Link to my GitHib: [https://github.com/Packetsniffer67/OmarAlami1.git].
+### **[My LinkedIn](https://www.linkedin.com/in/omar-alami-29347a187/)**
 
 
 | Certifications|
@@ -16,6 +17,11 @@ Link to my GitHib: [https://github.com/Packetsniffer67/OmarAlami1.git].
 | Google Cybersecurity Professional Certificate|
 | TryHackMe SOC Level 1|
 
+
+```
+Experienced with: 
+Splunk, Wazuh, Sysmon, Wireshark, Snort, CyberChef, Nmap, DHCP, NetBIOS, Kerberos, ICMP, DNS, FTP, HTTP, HTTPS, Security Information and Event Management (SIEM), Endpoint Security Monitoring, Log Analysis, Threat Detection, Incident Response, Data Exfiltration Detection, Command-and-Control (C2) Traffic Analysis, Credential Dumping, Python, Linux Administration, Command-Line Tools,Scheduled Tasks, Encoded Payload Decoding, Data Exfiltration via ICMP/DNS Tunneling, Decrypting HTTPS Traffic.
+```
 
 
 # About Me
@@ -188,10 +194,7 @@ Cybersecurity Professional-in-Training with a strong foundation in Threat Analys
 <dd>Green</dd>
 </dl>
 
-```
-Experienced with: 
-Splunk, Wazuh, Sysmon, Wireshark, Snort, CyberChef, Nmap, DHCP, NetBIOS, Kerberos, ICMP, DNS, FTP, HTTP, HTTPS, Security Information and Event Management (SIEM), Endpoint Security Monitoring, Log Analysis, Threat Detection, Incident Response, Data Exfiltration Detection, Command-and-Control (C2) Traffic Analysis, Credential Dumping, Python, Linux Administration, Command-Line Tools,Scheduled Tasks, Encoded Payload Decoding, Data Exfiltration via ICMP/DNS Tunneling, Decrypting HTTPS Traffic.
-```
 
-### **[My LinkedIn](https://www.linkedin.com/in/omar-alami-29347a187/)**
+
+
 
