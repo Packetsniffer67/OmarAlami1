@@ -194,5 +194,5 @@ Splunk, Wazuh, Sysmon, Wireshark, Snort, CyberChef, Nmap, DHCP, NetBIOS, Kerbero
 ```
 
 ```
-![Check out my LinkedIn](https://www.linkedin.com/in/omar-alami-29347a187/): .
+### My LinkedIn (https://www.linkedin.com/in/omar-alami-29347a187/): .
 ```
