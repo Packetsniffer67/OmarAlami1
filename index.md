@@ -33,6 +33,49 @@ Cybersecurity Professional-in-Training with a strong foundation in Threat Analys
 >
 > Managed Active Directory Permissions using Ubuntu, Developed IPS rules in Snort to block malicious network traffic, Scripted Python solutions for ethical hacking, Built data visualization dashboards using Splunk for fraud detection.
 
+***
+
+# Elastic SIEM Home Lab
+
+**Objective:**  
+Set up a home lab to explore Elastic Stack SIEM capabilities for hands-on learning in log analysis, alert configuration, and security event monitoring.
+
+## Tools Used
+- **Kali Linux:** For security testing and event generation.
+- **Elastic SIEM:** Centralized log collection and analysis.
+- **VirtualBox:** Virtualization software for hosting Kali Linux.
+
+## Key Tasks Completed
+1. Created an Elastic Cloud deployment for centralized data collection.
+2. Installed and configured Kali Linux on VirtualBox.
+3. Installed Elastic Agent on Kali to forward logs to Elastic SIEM.
+4. Simulated security events using tools like Nmap and SSH login attempts.
+5. Analyzed logs in Elastic SIEM and created a custom dashboard to visualize security events.
+6. Configured an alert rule to detect Nmap scans and trigger notifications.
+
+## Outcomes and Applications
+- Gained experience in setting up and using SIEM for security monitoring.
+- Created dashboards and alerts for better incident response and threat detection.
+- Expanded skills in log analysis, threat hunting, and SIEM-based workflows.
+
+## Future Use Cases
+- Incident response simulations and refined detection strategies.
+- Integration with additional data sources for advanced threat analysis.
+- Certification preparation and skill enhancement in cybersecurity.
+
+## References
+- [Elastic Documentation](https://www.elastic.co)
+- [Kali Linux Official Website](https://www.kali.org/get-kali)
+- [Nmap Documentation](https://nmap.org)
+- [Oracle VirtualBox Documentation](https://www.virtualbox.org)
+- Cybersecurity Training Resources (YouTube tutorials and forums)
+- [Elastic Integrations Reference](https://www.elastic.co/guide/en)
+
+>![ElasticSIEM]()
+
+
+***
+
 ### Endpoint Security Monitoring 
 
 1. Investigated the Desktop Message:
@@ -57,6 +100,7 @@ Cybersecurity Professional-in-Training with a strong foundation in Threat Analys
    5. The intruder downloaded and ran a decryptor to restore files.
    6. A note was created on the desktop, instructing Sophie to check her Bitcoin wallet.
 
+***
 
 ### Incident Response with Snort
 
@@ -108,12 +152,16 @@ Cybersecurity Professional-in-Training with a strong foundation in Threat Analys
 ##### Summary: 
 >This project demonstrated hands-on expertise in intrusion detection, network traffic analysis, and custom rule creation to defend against cyber threats.
 
+***
+
 ### Ethical Hacking wih Python 
 
 >![PythonProject](Python Code for Brute Forcing a zipfile.png)
 * Drafted Log4j Security Advisory: Communicated critical vulnerability details (CVE-2021-44228 and CVE-2021-45046) to the Product Development Team, outlining risks, affected versions, and actionable remediation steps to secure infrastructure.
 * Enhanced Brute-Force Python Script: Completed and optimized a Python script to decrypt a password-protected zip file using a wordlist, achieving 100% success in password discovery and file decryption.
 * Demonstrated Cybersecurity Proficiency: Showcased skills in vulnerability communication, incident response, and practical programming for solving security challenges.
+
+***
 
 ### Analyzing Potential Command and Control (C2) Communication Using E.L.K Stack
 
