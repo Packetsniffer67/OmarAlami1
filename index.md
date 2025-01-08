@@ -71,7 +71,7 @@ Set up a home lab to explore Elastic Stack SIEM capabilities for hands-on learni
 - Cybersecurity Training Resources (YouTube tutorials and forums)
 - [Elastic Integrations Reference](https://www.elastic.co/guide/en)
 
->![ElasticSIEM]()
+>![ElasticSIEM](Elastic SIEM Home Lab Report.pdf)
 
 
 ***
